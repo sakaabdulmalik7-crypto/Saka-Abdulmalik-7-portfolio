@@ -123,7 +123,26 @@ export default function Portfolio() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="px-6 py-20 max-w-3xl mx-auto">
+      <section id=”contact” className=”px-6 py-20 max-w-3xl mx-auto”>
+  <h3 className=”text-4xl font-bold mb-6”>Contact</h3>
+
+  {/* Your details shown on website */}
+  <div className=”mb-6 text-gray-300”>
+    <p><strong>Name:</strong> Saka Abdulmalik</p>
+    <p><strong>Email:</strong> sakaabdulmalik7@gmail.com</p>
+  </div>
+
+  <form className=”space-y-4”>
+    <input className=”w-full p-3 bg-black border border-white/20” placeholder=”Name” />
+    <input className=”w-full p-3 bg-black border border-white/20” placeholder=”Email” />
+    <textarea className=”w-full p-3 bg-black border border-white/20” placeholder=”Message”></textarea>
+    <button className=”px-6 py-3 bg-white text-black rounded-xl”>
+      Send
+    </button>
+  </form>
+</section>
+
+
         <h3 className="text-4xl font-bold mb-6">Contact</h3>
         <form className="space-y-4">
           <input className="w-full p-3 bg-black border border-white/20" placeholder="Name" />
